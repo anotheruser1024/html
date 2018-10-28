@@ -1,11 +1,62 @@
-#title{
-	color: red
+
+.header {
+	background-color: #b7d5ff;
+	text-align: center;
+	padding: 20px;
+	text-decoration-color: black;
 }
-.bodyText{
-	width: 160px;
-	padding: 15px;
-	margin: 5px;
-	border-bottom: 15px;
-	color: blue;
+.nav{
+	overflow: hidden;
+	background-color: #ffc1b7;
+}
+.nav a {
+	float:left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	background-color: #ffc1b7;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	background-color: #c7ffb7;
+	color: black;
+}
+.left-colume {
+	float: left;	
+	width: 75%;
+	padding-right: 10px;
+}
+.right-colume{
+	float: right;
+	width: 25%;
+	padding-left: 10px
 
 }
+
+id.social {
+	padding: 20px;
+	margin: 10px;
+
+}
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+.card {
+	background-color: white;
+	padding: 20px;
+	margin: 20px
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+	
+}
+
