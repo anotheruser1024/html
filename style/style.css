@@ -25,12 +25,14 @@
 }
 .left-colume {
 	float: left;	
-	width: 75%;
+	width: 74%;
+	margin: 10px;
 	padding-right: 10px;
 }
 .right-colume{
 	float: right;
-	width: 25%;
+	width: 24%;
+	margin: 10px;
 	padding-left: 10px
 
 }
